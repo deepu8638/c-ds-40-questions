@@ -5,8 +5,7 @@
 - Total Questions: **40**
 - Language: **C**
 - Topics: Covering everything from basic I/O to arrays, strings, recursion, file handling, and dynamic memory.
-- Some of the programs include **comments written in Assamese** 🇮🇳 to make them more relatable and easy to understand for native learners.
-
+- The programs include **comments written in Assamese** .
 ---
 
 ## 📚 Topics Covered
