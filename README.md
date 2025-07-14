@@ -1,26 +1,41 @@
 # 💻 C Programming Practice Repository
 
-Welcome to the **C Programming Practice Repository**!  
-This repository contains a collection of beginner-friendly and intermediate-level C programs, designed to help you understand the core concepts of the C language step by step.  
+## 🧾 About the Assignment
 
-📝 Some programs also include comments in **Assamese** 🇮🇳 to make learning more accessible to native speakers.
-
----
-
-## 📚 What You'll Learn
-
-This repository covers:
-
-- ✅ Basic I/O and operators  
-- 🔁 Loops and conditionals  
-- 🧮 Functions and recursion  
-- 📦 Arrays and strings  
-- 🧠 Pointers and pointer arithmetic  
-- 📂 File handling (read/write/merge)  
-- 🏗️ Structures and dynamic memory  
-- 📊 Sorting algorithms (e.g., Bubble Sort)  
-- 🔢 Math-based logic (prime, factorial, Fibonacci)  
+- Total Questions: **40**
+- Language: **C**
+- Topics: Covering everything from basic I/O to arrays, strings, recursion, file handling, and dynamic memory.
+- Some of the programs include **comments written in Assamese** 🇮🇳 to make them more relatable and easy to understand for native learners.
 
 ---
 
+## 📚 Topics Covered
+
+Here’s a list of what the programs touch upon:
+
+- ✅ Basic Input/Output
+- 🔁 Conditional statements and loops
+- 🧮 Functions and recursion
+- 📦 Arrays and string manipulation
+- 🧠 Pointer concepts and pointer arithmetic
+- 📂 File handling (read/write/merge)
+- 🏗️ Structures and dynamic memory (`malloc`, `free`)
+- 📊 Sorting algorithms (like Bubble Sort)
+- 🔢 Common logic-based programs (prime number, factorial, Fibonacci, etc.)
+
+---
+
+## 🗂 Program Structure
+
+To keep the repository clean and organized, the 40 programs are grouped into three main files:
+
+| File Name                | Description                                      |
+|--------------------------|--------------------------------------------------|
+| `beginner_programs.c`    | Basic programs (I/O, operators, conditionals)    |
+| `intermediate_programs.c`| Loops, functions, recursion, strings, pointers   |
+| `advanced_programs.c`    | Arrays, sorting, structures, files, memory alloc |
+
+Each program is written clearly and separately within those files, and you can scroll or search to find any specific one.
+
+---
 
