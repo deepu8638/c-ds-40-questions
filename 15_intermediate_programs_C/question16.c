@@ -8,13 +8,13 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 
-    // GCD (সৰ্বাধিক সাধারণ গুণিতক) বিচৰা হৈছে
+    // GCD বিচৰা হৈছে
     for(i = 1; i <= num1 && i <= num2; ++i) {
         if(num1 % i == 0 && num2 % i == 0)
             gcd = i; // i সংখ্যাটোক GCD হিচাপে সংৰক্ষণ কৰা হৈছে
     }
 
-    // LCM (সৰ্বনিম্ন সাধারণ গুণিতক) গণনা কৰা হৈছে
+    // LCM গণনা কৰা হৈছে
     lcm = (num1 * num2) / gcd;
 
     // GCD আৰু LCM ফলাফলবোৰ প্ৰিন্ট কৰা হৈছে
