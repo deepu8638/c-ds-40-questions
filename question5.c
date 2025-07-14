@@ -5,22 +5,25 @@
 int main() {
     int num1, num2;
 
-    // দুটা সংখ্যা input লোৱা হৈছে
-    printf("প্ৰথম সংখ্যা দিয়ক: ");
+    // ব্যৱহাৰকাৰীৰ পৰা দুটা সংখ্যা লোৱা হৈছে
+    printf("Enter the first number: ");
     scanf("%d", &num1);
 
-    printf("দ্বিতীয় সংখ্যা দিয়ক: ");
+    printf("Enter the second number: ");
     scanf("%d", &num2);
 
-    // বৃহত্তম সংখ্যাটো চিনাক্ত কৰি print কৰা হৈছে
+    // দুটা সংখ্যাৰ ভিতৰত ডাঙৰটো নিৰ্ণয় কৰা হৈছে
     if (num1 > num2) {
-        printf("বৃহত্তম সংখ্যা হৈছে: %d\n", num1);
+        // প্ৰথম সংখ্যাটো ডাঙৰ বুলি প্ৰকাশ কৰা হৈছে
+        printf("The first number is larger.\n");
     } else if (num2 > num1) {
-        printf("বৃহত্তম সংখ্যা হৈছে: %d\n", num2);
+        // দ্বিতীয় সংখ্যাটো ডাঙৰ বুলি প্ৰকাশ কৰা হৈছে
+        printf("The second number is larger.\n");
     } else {
-        // যদি দুয়োটা সংখ্যা সমান হয়
-        printf("দুয়োটা সংখ্যা সমান।\n");
+        // যদি দুয়োটা সংখ্যা সমান হয়
+        printf("Both numbers are equal.\n");
     }
 
+    // প্ৰোগ্ৰামটো সফলতাৰে সম্পন্ন হৈছে
     return 0;
 }
